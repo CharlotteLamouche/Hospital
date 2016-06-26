@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Page d'Ajout</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head> 
+
+<form method="POST" action="ajout2.php">
+		Ajouter &nbsp;:
+
+    <select name="choixajout" size="1">
+    <p>
+        <option value="Medecin">Médecin</option>
+        <option value="Specialite">Spécialité</option>
+        <option value="Patient">Patient</option>
+        <option value="Prescription">Prescription</option>
+        <option value="Medicament">Médicament</option>
+        <option value="Salle Operation"> Salle Opération</option>
+        <option value="Batiment">Batiment</option>
+        <option value="Allergie">Allergie</option>
+        <option value="Salle consultation">Salle Consultation</option>
+	<option value="Chambre">Chambre</option>
+	<option value="Creneau">Créneau</option>
+	<option value="Operation">Opération</option>
+	</p>	
+    <input type="submit"/>
+    </select>
+</form>
+
+<form method="POST" action="association.php">
+		Associer une allergie à &nbsp;:
+
+    <select name="choixasso" size="1">
+    	<p>
+        <option value="allPatient">Patient</option>
+        <option value="allMedicament">Médicament</option>
+	</p>
+    <input type="submit"/>
+    </select>
+</form>
+
+
+
+</html>
